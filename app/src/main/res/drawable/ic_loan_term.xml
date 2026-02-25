@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- White arc: top-right segment -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 28.14,8.55 A 16,16 0 0 1 39.04,18.53"/>
+    
+    <!-- Greenish arc: from right side through full circle with a gap -->
+    <path
+        android:strokeColor="#B8D4D6"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 39.04,29.47 A 16,16 0 1 1 18.53,8.96"/>
+</vector>
